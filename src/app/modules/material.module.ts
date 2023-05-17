@@ -9,7 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatTooltipModule } from '@angular/material/tooltip';
-
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -24,6 +24,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatInputModule,
     MatCardModule,
     MatTooltipModule,
+    MatTableModule
   ],
   exports: [ // Let other parts of the app use theses.
     MatToolbarModule,
@@ -35,6 +36,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatInputModule,
     MatCardModule,
     MatTooltipModule,
+    MatTableModule
   ]
 })
 export class MaterialModule { }
